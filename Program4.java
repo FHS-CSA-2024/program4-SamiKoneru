@@ -19,8 +19,8 @@ public class Program4 {
         System.out.println("Enter fourth number: ");
         num4 = myObj.nextInt();  //take input for all variables
         double sum = num1 + num2 + num3 + num4;  //calculate sum, double so ave is double
-        double ave = sum / 4;  //calculate average with sum, double
-        System.out.println("The sum of the four numbers is " + Math.round(sum));  //round it to remove the .0 at the end
+        double ave = sum / 4.0;  //calculate average with sum, double 4.0 makes it a double so dividing gives decimal
+        System.out.println("The sum of the four numbers is " + sum);  //output
         System.out.print("\nThe average of the four numbers is " + ave);  //output
     }
 }
